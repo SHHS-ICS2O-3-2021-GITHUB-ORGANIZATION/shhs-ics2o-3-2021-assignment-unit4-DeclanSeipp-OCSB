@@ -1,6 +1,6 @@
 # NAME OF AUTHOR: Declan Seipp  
 # NAME OF THE PROGRAM: Q1 Pythagoras
-# DATE OF CREATION: 1/13/2022
+# DATE OF CREATION: 1/16/2022
 # PURPOSE OF PROGRAM: calculate hypotenuse from two sides of a right angle trianlge
 
 import math

@@ -1,6 +1,6 @@
 # NAME OF AUTHOR: Declan Seipp  
 # NAME OF THE PROGRAM: Q2 RandomRange
-# DATE OF CREATION: 1/13/2022
+# DATE OF CREATION: 1/16/2022
 # PURPOSE OF PROGRAM: generate random number between two inputs
 
 import random

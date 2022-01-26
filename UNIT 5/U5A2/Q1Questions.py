@@ -22,17 +22,17 @@ b = str(input("please type answer b: "))
 c = str(input("please type answer c: "))
 d = str(input("please type answer d: "))
 answer = str(input("what is the correct answer?: "))
-
+print('\nyour multiple choice question is now complete')
 # PROCESSING
 
 # open file 
 filehandle = open("Questions.txt", 'w')
 # put each part of quiz on different line (makes it easier in part 2)
 filehandle.write(question + '\n')
-filehandle.write(a +'\n')
-filehandle.write(b +'\n')
-filehandle.write(c +'\n')
-filehandle.write(d +'\n')
+filehandle.write('a: '+ a +'\n')
+filehandle.write('b: '+ b +'\n')
+filehandle.write('c: '+ c +'\n')
+filehandle.write('d: '+ d +'\n')
 # close/save file
 filehandle.close()
 
@@ -41,3 +41,5 @@ filehandle = open("answer.txt", 'w')
 filehandle.write(answer)
 # close/save file
 filehandle.close()
+
+

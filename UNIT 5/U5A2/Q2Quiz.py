@@ -3,13 +3,14 @@
 # DATE OF CREATION: 1/26/2022
 # PURPOSE OF PROGRAM: read the file and pose the question to the user
 
+
 # VARIABLE DEFINITION
 
 # open file with question and answers
 infile = open('Questions.txt', 'r')
 questions = str(infile.read())
 infile.close()
-# open file with correct answer (must open with str)
+# open file with answer (must open with str)
 infile = open('answer.txt', 'r')
 answer = str(infile.read())
 infile.close()
@@ -18,11 +19,10 @@ userInput = 0
 guesses = 0
 
 # INPUT/PROCESSING/OUTPUT
-
 # display question to user
 print(questions)
 # receive first input from user(must be before while statement)
-userInput = str(input("answer: "))
+userInput = str(input("answer: "))                       
 # create while statement for when incorrect answer is input
 while userInput != answer:
     if userInput != answer:
@@ -31,7 +31,7 @@ while userInput != answer:
         # add 1 to guesses for guess counter 
         guesses = guesses + 1
         
-# when correct answer is input
+# for when correct answer is input
 if userInput == answer:
     # add 1 to guesses to get correct number of attempts
     guesses = guesses + 1

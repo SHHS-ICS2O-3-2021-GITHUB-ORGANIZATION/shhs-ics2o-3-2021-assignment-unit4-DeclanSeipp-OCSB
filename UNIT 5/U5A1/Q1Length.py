@@ -15,5 +15,4 @@ wordLen = 0
 while userInput != "quit":
   userInput = str(input("\nplease insert your word: "))
   wordLen = len(userInput)
-  print("the length of your word is: " + str(wordLen))
-  
+  print("the length of your word is: " + str(wordLen) + " letters")

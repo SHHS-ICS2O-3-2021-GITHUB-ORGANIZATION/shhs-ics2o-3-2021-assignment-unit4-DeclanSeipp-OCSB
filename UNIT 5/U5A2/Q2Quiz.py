@@ -40,12 +40,3 @@ if userInput == answer:
         print("\nCongratulations, you did it on your first try!")
     else:
         print("\nCorrect! you did it in " + str(guesses) + " trys!")
-
-
-
-
-
-
-
-
-

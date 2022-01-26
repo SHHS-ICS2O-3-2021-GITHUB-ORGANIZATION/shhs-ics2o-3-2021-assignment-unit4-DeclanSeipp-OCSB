@@ -5,7 +5,7 @@
 
 # VARIABLE DEFINITION
 
-# create varaibles for the question, 4 answers, and correct answer
+# create variables for the question, 4 answers, and correct answer
 question = 0
 answer = 0
 a = 0
@@ -15,7 +15,7 @@ d = 0
 
 # INPUT
 
-# recieve each input from user, put into variables
+# receive each input from user, put into variables
 question = str(input("please type your question: "))
 a = str(input("please type answer a: "))
 b = str(input("please type answer b: "))
@@ -33,9 +33,11 @@ filehandle.write(a +'\n')
 filehandle.write(b +'\n')
 filehandle.write(c +'\n')
 filehandle.write(d +'\n')
-filehandle.write(answer +'\n')
 # close/save file
 filehandle.close()
 
-
-
+# open file 
+filehandle = open("answer.txt", 'w')
+filehandle.write(answer)
+# close/save file
+filehandle.close()
